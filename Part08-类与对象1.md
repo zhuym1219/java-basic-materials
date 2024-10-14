@@ -24,7 +24,7 @@
 
 **类：**可以称之为一个模版，在模版中定义好这个类型需要有哪些特征，有哪些方法。例如学生可以称之为一个类，学生类中包含学号、姓名、年龄、性别等特征。UML图示：
 
-<img src="./pictures/part08-class-object1.png" alt="avater" style="zoom:40%;" />
+<img src="./pictures/Part08-class-object1.png" alt="avater" style="zoom:40%;" />
 
 ### 2. 属性
 
@@ -50,7 +50,7 @@ Student student2 = new Student();
 
 很显然，这段代码是创建了两个Student的对象，其引用名称分别为student1， student2.这里在内存堆与栈空间分配如下：
 
-<img src="./pictures/part08-class-object2.png" alt="avater" style="zoom:60%;" />
+<img src="./pictures/Part08-class-object2.png" alt="avater" style="zoom:60%;" />
 
 通过这个图，我们可以看到：
 

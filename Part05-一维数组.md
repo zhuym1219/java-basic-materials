@@ -22,7 +22,7 @@
 int[] array = new int[5];
 ```
 
-![avater](./pictures/part05-1.png)
+![avater](./pictures/Part05-1.png)
 
 **要点1:** 左边的 int 表示一维数组元素的类型。
 
@@ -52,7 +52,7 @@ array[4] = -8;
 int[] array2 = {5, 4, 3, 2, 1};
 ```
 
-<img src="./pictures/part05-2.png" alt="avater" style="zoom:50%;" />
+<img src="./pictures/Part05-2.png" alt="avater" style="zoom:50%;" />
 
 ### 2. 遍历数组
 
@@ -91,7 +91,7 @@ for (int e: array) {
 
 （2）   堆空间： 用于存放对象或数组中的元素，一般来说new 出来的数据，都存放在堆空间里。
 
-<img src="./pictures/part05-3.png" alt="avater" style="zoom:67%;" />
+<img src="./pictures/Part05-3.png" alt="avater" style="zoom:67%;" />
 
 在图中我们可以看到，栈空间里有array与array2，堆空间便存放着array与array2指向的具体的数组元素。
 
@@ -109,5 +109,5 @@ for (int e: array) {
 
 这样代表，array3 与array共享一个空间，如下图所示：
 
-<img src="./pictures/part05-4.png" alt="avater" style="zoom:67%;" />
+<img src="./pictures/Part05-4.png" alt="avater" style="zoom:67%;" />
 

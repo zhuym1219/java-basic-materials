@@ -40,7 +40,7 @@ public class MyFrame extends JFrame {
 
 显示结果：
 
-<img src="./pictures/part16-1.png" alt="avater" style="zoom:50%;" />
+<img src="./pictures/Part16-1.png" alt="avater" style="zoom:50%;" />
 
 #### (2) 组件
 
@@ -48,7 +48,7 @@ public class MyFrame extends JFrame {
 
 窗体与组件的关系如图：
 
-<img src="./pictures/part16-2.png" alt="avater" style="zoom:70%;" />
+<img src="./pictures/Part16-2.png" alt="avater" style="zoom:70%;" />
 
 ### 2. x与y坐标
 
@@ -56,7 +56,7 @@ public class MyFrame extends JFrame {
 
 在Swing设计中，坐标**原点**位于组件或窗体的**左上角**，x坐标代表水平方向的位置，y坐标代表竖直方向的位置。举例说明：如果一个组件的width与height分别是100，50，那么该组件四个顶点的x,y的坐标分别如下：
 
-<img src="./pictures/part16-3.png" alt="avater" style="zoom:70%;" />
+<img src="./pictures/Part16-3.png" alt="avater" style="zoom:70%;" />
 
 #### (2) location
 
@@ -64,7 +64,7 @@ public class MyFrame extends JFrame {
 
 例如下面的例子：小正方形代表子组件，长举行代表父组件，那么子组件在父组件的位置是（25，25）
 
-<img src="./pictures/part16-4.png" alt="avater" style="zoom:70%;" />
+<img src="./pictures/Part16-4.png" alt="avater" style="zoom:70%;" />
 
 **要点1:** 如果我们想让子组件在父组件相对的位置中显示出来，下面几个要素必不可少：
 
@@ -147,7 +147,7 @@ import javax.swing.*;
 
 如下所示，底色白色矩形红色圆球的图案，就是写在paintComponent方法中的内容。
 
-<img src="./pictures/part16-5.png" alt="avater" style="zoom:50%;" />
+<img src="./pictures/Part16-5.png" alt="avater" style="zoom:50%;" />
 
 **要点1**: paintComponent方法无法通过用户自行调用，需要通过**repaint()**方法来调用。一般在构造方法中，会默认绘制一次，如若后期想改变绘制的样式，需要执行repaint()语句才能重新绘制。
 

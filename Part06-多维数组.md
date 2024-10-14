@@ -12,7 +12,7 @@
 
 这种声明方式，是声明了一个3行4列的int类型的二维数组，这种声明方式常常用于矩阵的计算。结构如下图所示：
 
-<img src="./pictures/part06-1.png" alt="avater" style="zoom:50%;" />
+<img src="./pictures/Part06-1.png" alt="avater" style="zoom:50%;" />
 
 **(2)** **声明时确定行与列以及所有元素**
 
@@ -20,7 +20,7 @@
 
 这种声明方式，是声明好了有3行，以及每一行的长度与具体元素的值。通过这个例子我们可以发现，在java中的二维数组每一行里的元素个数是可以不同的。结构如下图所示：
 
-<img src="./pictures/part06-2.png" alt="avater" style="zoom:70%;" />
+<img src="./pictures/Part06-2.png" alt="avater" style="zoom:70%;" />
 
 **(3)** **声明时只确定行数**
 
@@ -28,7 +28,7 @@
 
 这种声明方式，是指声明了二维数组有2行。此时，二维数组中的元素是一维数组的引用，此时都为null。如下图所示：
 
-<img src="./pictures/part06-3.png" alt="avater" style="zoom:50%;" />
+<img src="./pictures/Part06-3.png" alt="avater" style="zoom:50%;" />
 
 当我们再执行下面两条语句后，便可以给二维数组中每一个元素，即一维数组的引用指向一个具体的空间。
 
@@ -39,7 +39,7 @@ array3[1] = new int[]{1,2,3};
 
 如下图所示：
 
-<img src="./pictures/part06-4.png" alt="avater" style="zoom:50%;" />
+<img src="./pictures/Part06-4.png" alt="avater" style="zoom:50%;" />
 
 ### 2. 二维数组的遍历
 
